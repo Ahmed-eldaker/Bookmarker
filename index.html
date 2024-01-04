@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="mark.png">
+    <title> Bookmark</title>
+</head>
+
+<body>
+    <header class="text-center container">
+        <h1 class="my-2"><img src="imgs/1f0f1e0f0535cced3a7e2b2a4ce758cf.gif" width="300px" height="100%" alt=""></h1>
+    </header>
+    <section class="py-2 m-auto mt-2 w-75 myBackColor text-center d-flex flex-column align-items-center">
+        <h2 class="text-white ">Bookmark your favorite sites</h2>
+        <label for="sName " class=" text-white mt-2">Site Name</label>
+        <input id="sName" class="w-75 form-control" placeholder="Name.." type="text">
+        <label for="sUrl" class="text-white mt-2">Site URL</label>
+        <input id="sUrl" class="w-75 form-control" placeholder="www.yourSite.com" type="text">
+        <button id="submit" class="btn btn-warning mt-2 ">Submit</button>
+    </section>
+    <section class="m-auto mt-2 w-75  ">
+        <input id="search" onkeyup="search(this.value)" type="text" class=" w-100 form-control mb-2"
+            placeholder="Search...">
+    </section>
+    <section id="siteRow" class=" m-auto w-75   ">
+
+    </section>
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
